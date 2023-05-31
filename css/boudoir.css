@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ab245f;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 3rem;
+    padding-top: 30%;
+}
+
+.text-presentation {
+    width: 60%;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.lieu-presentation {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.img-presentation {
+    width: 65%;
+}
