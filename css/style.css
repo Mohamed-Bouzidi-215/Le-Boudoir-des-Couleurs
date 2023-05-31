@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif; */
+}
+
+.home {
+    width: 25%;
+    height: 90%;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 0%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-boudoir {
+    width: 14rem;
+}
+
+.home-navbar {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #ebb1c0;
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 0.7rem;
+    color: #ebb1c0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-rdv {
+    width: 18rem;
+    border-radius: 20px;
+    background-color: #ebb1c0;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 1.5rem;
+}
+
+.footer-logos {
+    text-align: right;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    width: 2rem;
+    padding: 0.5rem;
+}
