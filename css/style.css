@@ -1,22 +1,30 @@
 body {
-    width: 100%;
-    background-image: url("../img/background.jpg");
-    background-size: cover;
-    /* font-family: 'Abril Fatface', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .home {
+    width: 100%;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.home-menu {
     width: 25%;
-    height: 90%;
+    height: 830px;
+    margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    right: 0%;
-    top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    left: 1350px;
 }
 
 .logo-boudoir {
@@ -61,4 +69,121 @@ a:hover {
 .logo {
     width: 2rem;
     padding: 0.5rem;
+}
+
+.box-img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: -0.2rem;
+}
+
+.box-text {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -0.2rem;
+}
+
+.box-h1-manucure {
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    display:block;
+    border-bottom: 1px solid #ab245f;
+    text-align: left;  
+}
+
+.box-p {
+    width: 80%;
+    margin-left: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.box-button {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 12rem;
+    border-radius: 20px;
+    background-color: #ebb1c0;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.box-h1-delices {
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    display:block;
+    border-bottom: 1px solid #ab245f;
+    text-align: right;
+}
+
+.box-h1-ongles {
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    display:block;
+    border-bottom: 1px solid #ab245f;
+    text-align: left;  
+}
+
+.img-box {
+    width: 100%;
+    height: 100%
+}
+
+.bienvenue {
+    width: 110%;
+    background-color: #ab245f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-bienvenue {
+    font-size: 3rem;
+    color: white;
+}
+
+.text-bienvenue {
+    width: 45%;
+    font-size: 1.2rem;
+}
+
+.button-bienvenue {
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #ab245f;
+    font-size: 3rem;
+}
+
+.footer-home {
+    width: 110%;
+    background-color: #ab245f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-text {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 3rem;
 }
