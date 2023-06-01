@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.album {
+    width: 30%;
+    height: 929px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ab245f;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 3rem;
+    padding-top: 30%;
+}
+
+.text-album {
+    width: 60%;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.prendre-rdv {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.container {
+    padding-top: 100px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 3%;
+}
+
+.box {
+    width: 30%;
+}
+
+img {
+    width: 90%;
+}
