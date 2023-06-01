@@ -6,7 +6,7 @@ body {
     flex-direction: row;
 }
 
-.presentation {
+.savoir-faire {
     width: 30%;
     height: 929px;
     display: flex;
@@ -22,20 +22,32 @@ h1 {
     padding-top: 30%;
 }
 
-.text-presentation {
+.text-savoir-faire {
     width: 60%;
     font-size: 1.5rem;
     color: white;
     text-align: center;
 }
 
-.lieu-presentation {
+.prendre-rdv {
     font-size: 1.5rem;
     color: white;
     text-decoration: underline;
 }
 
-.img-presentation {
+.container {
+    padding-top: 300px;
     width: 70%;
-    height: 929px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.box {
+    width: 30%;
+}
+
+img {
+    width: 90%;
 }

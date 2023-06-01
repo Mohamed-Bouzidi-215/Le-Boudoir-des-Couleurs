@@ -11,30 +11,38 @@ body {
 
 .home {
     width: 100%;
-    background-image: url("../img/background.jpg");
-    background-size: cover;
+    height: 100%;
+
+}
+
+.background-home {
+    width: 100%;
+    height: 100%;
 }
 
 .home-menu {
-    width: 25%;
-    height: 830px;
-    margin-top: 100px;
+    width: 30%;
+    height: 80%;
+    margin-top: 10%;
+    margin-right: -5%;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
-    left: 1350px;
+    position: absolute;
+    top: 0%;
+    left: 70%
 }
 
 .logo-boudoir {
-    width: 14rem;
+    width: 10rem;
+    margin-bottom: 5%;
 }
 
 .home-navbar {
     display: flex;
     flex-direction: column;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #ebb1c0;
 }
@@ -50,10 +58,10 @@ a:hover {
 }
 
 .button-rdv {
-    width: 18rem;
+    width: 15rem;
     border-radius: 20px;
     background-color: #ebb1c0;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: white;
@@ -62,7 +70,6 @@ a:hover {
 
 .footer-logos {
     text-align: right;
-    margin-right: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -140,7 +147,8 @@ a:hover {
 }
 
 .bienvenue {
-    width: 110%;
+    margin-top: -1rem;
+    width: 100%;
     background-color: #ab245f;
     color: white;
     display: flex;
@@ -175,7 +183,7 @@ h1 {
 }
 
 .footer-home {
-    width: 110%;
+    width: 100%;
     background-color: #ab245f;
     display: flex;
     flex-direction: row;
@@ -185,5 +193,9 @@ h1 {
 .footer-text {
     font-family: 'Abril Fatface', cursive;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+.fleche-logo {
+    padding: 0.5rem;
 }
